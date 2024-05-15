@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "interactive-llm-voice-quix"
+version = "0.1.0"
+description = ""
+authors = ["Alonso Isidoro Román <alonsoir@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.9"
+openai = "^1.29.0"
+speechrecognition = "^3.10.4"
+pyttsx3 = "^2.90"
+pyaudio = "^0.2.14"
+langchain = "^0.1.20"
+chromadb = "^0.5.0"
+quixstreams = "^2.4.2"
+pandas = "^2.2.2"
+black = "^24.4.2"
+pypdf = "^4.2.0"
+tiktoken = ">=0.5.2,<0.6.0"
+json5 = "^0.9.25"
+embedchain = "^0.1.103"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+package-mode = true
